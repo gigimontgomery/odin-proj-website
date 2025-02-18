@@ -1,0 +1,201 @@
+* {
+    font-family: Roboto, sans-serif;
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0px;
+}
+header {
+    width: 100vw;
+    background-color: #1F2937 ;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.super-dope-title {
+    font-size: 24px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color:#F9FAF8;
+}
+li {
+    list-style-type: none;;
+}
+.hero {
+    background-color: #1F2937 ;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 75px 100px;
+}
+.left-side-stuff {
+    width: 400px;
+    height: auto;
+}
+.left-side-stuff > p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.big-writing {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.button {
+    background-color: #3882F6;
+    width: 135px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+    align-items: center;
+    border: none;
+}
+.button:hover {
+    background-color: lightpink;
+    color: magenta;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.mid-section-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+.dope-squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.item {
+    border: 4px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;;
+}
+.item-text {
+    width: 150px;
+    text-align: center;
+}
+.container3 {
+    background-color: #E5E7EB ;
+    height: 200px;
+    padding: 100px 200px; 
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    margin: 0px 50px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+/* still figuring out how to align the quotee to the right; feels like this large of a margin isn't really a great solution */
+.quote-name {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 650px;
+}
+.container4 {
+    border: none;
+    border-radius: 10px;
+    margin: 50px 180px;
+    width: 60%;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 50px;
+}
+.final-thoughts {
+    width: 65%;
+
+}  
+.big-words {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.big-words > p {
+    margin: 0px;
+}
+/* need more padding around the button text */
+.last-button {
+    border: 3px solid #E5E7EB;
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+}
+.last-button:hover {
+    border: 3px solid rgb(6, 229, 240);
+    background-color: rgb(29, 73, 250);
+}
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.you-dope {
+    height: 100vh;;
+    width: 100vw;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lizzo {
+    border: 30px solid rgb(255, 206, 244);
+    border-radius: 20px;
+    height: 400px;
+    width: 600px;
+}
+.dope {
+    height: 100vh;;
+    width: 100vw;
+    background-color: rgb(6, 229, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dope-frame {
+    border: 30px ridge rgb(29, 73, 250);
+    height: 500px;
+    width: 600px;
+}
